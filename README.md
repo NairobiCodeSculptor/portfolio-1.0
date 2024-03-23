@@ -21,7 +21,7 @@ None so far
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:3000`.
+1. Open your web browser and navigate to `http://localhost:5000 or 6000 or 7000`.
 
 
 ## Contributing
