@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 //importing routes
 import aboutMe from './routes/aboutme.js';
 import contact from './routes/contact.js';
+import sendMessage from './routes/sendMessage.js';
 
 
 const server = express();
@@ -21,6 +22,11 @@ server.use(bodyParser.json());
 server.use(express.json());
 server.use(contact);
 server.use(aboutMe);
+server.use(sendMessage);
+server.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
 
 
 server.get('/', (req, res) => {
