@@ -1,65 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Abdulrahman - Web Developer</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Abdulrahman Juma</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header class="bg-dark text-light p-4">
-        <div class="container">
-            <h1>Contact Abdulrahman</h1>
-        </div>
-    </header>
+<body class="dark-theme">
+  <div class="contact-container">
+    <h1>Contact Me</h1>
+    <p>Have a project in mind or just want to say hi? Fill out the form below or email me at <a href="mailto:abdulrahman@creative.com">abdulrahmankitiavi@gmail.com</a>.</p>
+    <form action="#" method="post" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-    <section id="contact-info" class="py-5">
-        <div class="container">
-            <h2>Contact Information</h2>
-            <ul class="list-unstyled">
-                <li>Email: abdulrahmankitiavi@gmail.com</li>
-                <li>Phone: +254 705839282</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/abdulrahman" target="_blank" class="text-primary">Abdulrahman</a></li>
-            </ul>
-        </div>
-    </section>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
 
-    <section id="message-form" class="py-5 bg-light">
-        <div class="container">
-            <h2>Send a Message</h2>
-            <form action="send_message.php" method="POST">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" class="form-control" required>
-                </div>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
 
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" class="form-control" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary">Send</button>
-            </form>
-        </div>
-    </section>
-
-    <footer class="bg-dark text-light text-center py-3">
-        <div class="container">
-            <p>&copy; 2024 Abdulrahman. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
 </body>
 </html>
