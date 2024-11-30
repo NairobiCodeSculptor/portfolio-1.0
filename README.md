@@ -1,106 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdulrahman Kitiavi</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Add custom styles here */
-        img {
-            border-radius: 50%;
-            height: 25%;
-            width: 25%;
-        }
-    </style>
-</head>
-<body>
-    <header class="text-center">
-        <h1>My Resume</h1>
-    </header>
+Report: Building and Growing “Nexel” as a Software Production Company
 
-    <section id="profile-photo" class="text-center">
-        <h2>Profile Photo</h2>
-        <img src="./abdul.jpg" alt="Abdulrahman Kitiavi photo" class="img-fluid">
-    </section>
+Introduction
 
-    <section id="summary" class="container mt-5">
-        <h2>Summary</h2>
-        <p>As a junior developer, my mission transcends mere coding; it's about catalyzing positive change in the world through innovative technology solutions. Driven by the desire to learn new programming languages and frameworks, I aim to continuously enhance my skill set while contributing meaningfully to the community. With a collaborative spirit and a passion for leveraging technology for social good, I aspire to be part of a dynamic team where I can grow as a developer and make a tangible difference in our global community.</p>
-    </section>
+The global demand for software solutions, application software, and website development continues to rise. Nexel, as a proposed software production company, will aim to provide high-quality, innovative, and scalable solutions to businesses and individuals. This report outlines the steps to create and grow Nexel, focusing on brand development, service delivery, and digital marketing strategies.
 
-    <section id="education" class="container mt-5">
-        <h2>Education</h2>
-        <ul>
-            <li>Multimedia University | Bachelor in Mathematics and Computer Science | Ongata Rongai, Kenya | 08/2022 – Present
-                <ul>
-                    <li>Cumulative GPA: 3.50/4.00</li>
-                    <li>Running Delegate</li>
-                </ul>
-            </li>
-            <li>Mudasa Academy | 01/2018 – 02/2022
-                <ul> 
-                    <li>Head of Student Council</li>
-                    <li>Cumulative GPA: 3.0/4.0</li>
-                </ul>
-            </li>
-            <li>Additional Courses
-                <ul>
-                    <li>Certificate in Microsoft packages (Word, Excel, PowerPoint, and Microsoft Access)</li>
-                    <li>Certificate in Microsoft packages (Word, Excel, PowerPoint, and Microsoft Access)</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+1. Establishing the Company
 
-    <section id="skills" class="container mt-5">
-        <h2>Skills</h2>
-        <ul>
-            <li>Software Tools:
-                <ul>
-                    <li>Excel, Quickbooks, Kashoo, Xero, SQL, Freshbooks, Sageone</li>
-                </ul>
-            </li>
-            <li>Accounting Principles:
-                <ul>
-                    <li>Attention to detail, analytical and problem-solving, financial reporting</li>
-                </ul>
-            </li>
-            <li>Communication:
-                <ul>
-                    <li>Written and Oral Communication: English, Kiswahili, Arabic</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+1.1 Company Name and Vision
 
-    <section id="achievements" class="container mt-5">
-        <h2>Awards, Certifications, Achievements</h2>
-        <ul>
-            <li>Award/Certification/Achievement 1</li>
-            <li>Award/Certification/Achievement 2</li>
-            <!-- Add more achievements if needed -->
-        </ul>
-    </section>
+	•	Name: Nexel (symbolizing “Next-level” innovation and technology).
+	•	Vision: To empower businesses and individuals with cutting-edge software and web solutions that drive growth and efficiency.
 
-    <section id="navigation" class="container mt-5 text-center">
-        <h2>Navigation</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <button class="btn btn-primary btn-lg btn-block" onclick="window.location.href='about_me.html'">About Me</button>
-            </div>
-            <div class="col-md-6">
-                <button class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='contact.html'">Contact</button>
-            </div>
-        </div>
-    </section>
+1.2 Legal Setup
 
-    <footer class="container mt-5 text-center">
-        <p>&copy; abdulrahmankitiavi@gmail.com</p>
-    </footer>
+	•	Register Nexel as a legal business entity (e.g., Limited Liability Company - LLC) with relevant government authorities.
+	•	Secure necessary licenses and certifications for software production and web development in your operating region.
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+1.3 Business Model
+
+	•	Adopt a customer-centric approach, offering tailored solutions to clients.
+	•	Business revenue streams:
+	•	Software development (custom solutions).
+	•	Application development (e.g., mobile apps for businesses).
+	•	Website development and hosting.
+	•	Subscription-based SaaS platforms.
+	•	Maintenance and support services.
+
+2. Building Nexel as a Software Production Company
+
+2.1 Core Services
+
+	1.	Software Development:
+	•	Custom enterprise software for businesses (e.g., CRM, ERP).
+	•	SaaS platforms for specific industries.
+	2.	Application Software:
+	•	Mobile apps for iOS and Android.
+	•	Desktop applications for different operating systems.
+	3.	Website Development:
+	•	Responsive websites for businesses.
+	•	E-commerce platforms with integrated payment gateways.
+	•	Content Management System (CMS)-powered sites (e.g., WordPress).
+
+2.2 Recruitment and Team Building
+
+	•	Hire skilled professionals:
+	•	Software developers (frontend, backend, and full-stack).
+	•	UI/UX designers for aesthetic and functional interfaces.
+	•	Project managers to oversee software production workflows.
+	•	Marketing specialists for digital growth.
+	•	Offer remote work options to attract global talent.
+
+2.3 Infrastructure and Tools
+
+	•	Invest in tools for software development, project management, and collaboration:
+	•	IDEs: Visual Studio Code, IntelliJ IDEA.
+	•	Project Management: Jira, Trello, or Asana.
+	•	Version Control: GitHub or GitLab.
+	•	Cloud Services: AWS, Google Cloud, or Microsoft Azure.
+
+3. Growing Nexel as a Brand
+
+3.1 Brand Identity
+
+	•	Logo and Branding: Design a professional, modern logo and brand theme.
+	•	Mission Statement: Define Nexel’s mission to deliver innovation and value to clients.
+	•	Tagline: “Innovating the Future, One Line of Code at a Time.”
+
+3.2 Customer-Centric Approach
+
+	•	Offer free consultations to understand client needs.
+	•	Provide excellent customer service with quick response times.
+	•	Gather and showcase client testimonials to build credibility.
+
+3.3 Quality Assurance
+
+	•	Implement a rigorous QA process to ensure all software and websites are bug-free and user-friendly.
+	•	Regular updates and improvements based on user feedback.
+
+4. Marketing and Growth Strategies
+
+4.1 Digital Marketing Plan
+
+	1.	Search Engine Optimization (SEO):
+	•	Optimize the Nexel website with relevant keywords (e.g., “custom software development,” “website development services”).
+	•	Create a blog featuring tech trends and case studies.
+	2.	Social Media Marketing:
+	•	Build an active presence on platforms like LinkedIn, Twitter, Instagram, and Facebook.
+	•	Share project updates, client success stories, and behind-the-scenes content.
+	3.	Paid Advertising:
+	•	Use Google Ads to target clients searching for software development.
+	•	Run social media ads targeting small and medium-sized enterprises.
+	4.	Email Marketing:
+	•	Build an email list by offering free resources (e.g., an e-book on “Choosing the Right Software for Your Business”).
+	•	Send newsletters to update subscribers on Nexel’s offerings.
+	5.	Content Marketing:
+	•	Publish whitepapers, tutorials, and guides showcasing Nexel’s expertise.
+	•	Create video content (e.g., “How Nexel Solves Business Problems with Software”).
+
+4.2 Networking and Partnerships
+
+	•	Partner with local businesses and startups to offer tailored software solutions.
+	•	Attend tech expos, meetups, and hackathons to network and showcase Nexel’s services.
+
+4.3 Online Presence
+
+	•	Build a professional, responsive, and SEO-optimized website for Nexel.
+	•	Include portfolios, case studies, and clear calls-to-action for potential clients.
+
+4.4 Building Trust
+
+	•	Obtain certifications (e.g., ISO certification for software quality).
+	•	Guarantee confidentiality with clients through NDAs.
+	•	Offer free trials or demos for SaaS products.
+
+5. Financial Growth and Scalability
+
+5.1 Pricing Strategy
+
+	•	Competitive pricing for startups and small businesses.
+	•	Subscription-based pricing for SaaS platforms.
+
+5.2 Expanding Services
+
+	•	Scale operations to include AI-powered software, blockchain solutions, and IoT applications.
+	•	Launch a training program to teach coding and development skills.
+
+5.3 Monitoring Success
+
+	•	Track metrics like client acquisition rate, website traffic, and app downloads.
+	•	Use analytics tools like Google Analytics and HubSpot for insights.
+
+6. Timeline and Roadmap
+
+Phase 1 (0-6 Months)
+
+	•	Legal registration, team building, and website launch.
+	•	Begin with small projects to build a portfolio.
+
+Phase 2 (6-12 Months)
+
+	•	Focus on marketing and client acquisition.
+	•	Start developing SaaS platforms.
+
+Phase 3 (1-3 Years)
+
+	•	Expand into international markets.
+	•	Diversify services to include emerging tech solutions (AI, machine learning).
+
+Conclusion
+
+By focusing on quality services, a strong online presence, and a customer-centric approach, Nexel can establish itself as a trusted software production company. Through strategic marketing, innovative solutions, and team building, the company will grow into a reputable brand in the software development industry.
