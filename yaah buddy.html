@@ -6,99 +6,139 @@
     <title>Abdulrahman Kitiavi</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Add custom styles here */
-        img {
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            background-color: #1e3a5f;
+            color: #fff;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            overflow-y: auto;
+            width: 33%;
+        }
+        .sidebar img {
             border-radius: 50%;
-            height: 25%;
-            width: 25%;
+            width: 150px;
+            height: 150px;
+            margin: 20px 0;
+        }
+        .sidebar h1, .sidebar h2, .sidebar h3 {
+            color: #fff;
+        }
+        .content {
+            margin-left: 33%;
+            padding: 30px;
+        }
+        .profile-header {
+            border-bottom: 2px solid #1e3a5f;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .profile-header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .profile-header h2 {
+            font-size: 18px;
+            color: #555;
+        }
+        .section-title {
+            color: #1e3a5f;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .btn-container {
+            margin-top: 30px;
+        }
+        .btn-container .btn {
+            margin: 10px 0;
+            width: 100%;
+        }
+        .sidebar ul {
+            padding-left: 15px;
+        }
+        .sidebar ul li {
+            list-style-type: disc;
+            margin-left: 15px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
-    <header class="text-center">
-        <h1>My Resume</h1>
-    </header>
-
-    <section id="profile-photo" class="text-center">
-        <h2>Profile Photo</h2>
-        <img src="./abdul.jpg" alt="Abdulrahman Kitiavi photo" class="img-fluid">
-    </section>
-
-    <section id="summary" class="container mt-5">
-        <h2>Summary</h2>
-        <p>As a junior developer, my mission transcends mere coding; it's about catalyzing positive change in the world through innovative technology solutions. Driven by the desire to learn new programming languages and frameworks, I aim to continuously enhance my skill set while contributing meaningfully to the community. With a collaborative spirit and a passion for leveraging technology for social good, I aspire to be part of a dynamic team where I can grow as a developer and make a tangible difference in our global community.</p>
-    </section>
-
-    <section id="education" class="container mt-5">
-        <h2>Education</h2>
-        <ul>
-            <li>Multimedia University | Bachelor in Mathematics and Computer Science | Ongata Rongai, Kenya | 08/2022 – Present
-                <ul>
-                    <li>Cumulative GPA: 3.50/4.00</li>
-                    <li>Running Delegate</li>
-                </ul>
-            </li>
-            <li>Mudasa Academy | 01/2018 – 02/2022
-                <ul> 
-                    <li>Head of Student Council</li>
-                    <li>Cumulative GPA: 3.0/4.0</li>
-                </ul>
-            </li>
-            <li>Additional Courses
-                <ul>
-                    <li>Certificate in Microsoft packages (Word, Excel, PowerPoint, and Microsoft Access)</li>
-                    <li>Certificate in Microsoft packages (Word, Excel, PowerPoint, and Microsoft Access)</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-
-    <section id="skills" class="container mt-5">
-        <h2>Skills</h2>
-        <ul>
-            <li>Software Tools:
-                <ul>
-                    <li>Excel, Quickbooks, Kashoo, Xero, SQL, Freshbooks, Sageone</li>
-                </ul>
-            </li>
-            <li>Accounting Principles:
-                <ul>
-                    <li>Attention to detail, analytical and problem-solving, financial reporting</li>
-                </ul>
-            </li>
-            <li>Communication:
-                <ul>
-                    <li>Written and Oral Communication: English, Kiswahili, Arabic</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-
-    <section id="achievements" class="container mt-5">
-        <h2>Awards, Certifications, Achievements</h2>
-        <ul>
-            <li>Award/Certification/Achievement 1</li>
-            <li>Award/Certification/Achievement 2</li>
-            <!-- Add more achievements if needed -->
-        </ul>
-    </section>
-
-    <section id="navigation" class="container mt-5 text-center">
-        <h2>Navigation</h2>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
-                <button class="btn btn-primary btn-lg btn-block" onclick="window.location.href='about_me.html'">About Me</button>
+            <!-- Sidebar -->
+            <div class="col-md-4 sidebar text-center">
+                <img src="./abdul.jpg" alt="Abdulrahman Kitiavi photo">
+                <h1>ABDULRAHMAN KITIAVI</h1>
+                <h2>FULL STACK WEB DEVELOPER</h2>
+                <div class="btn-container">
+                    <button class="btn btn-light" onclick="window.location.href='about_me.html'">About Me</button>
+                    <button class="btn btn-light" onclick="window.location.href='contact.html'">Contact</button>
+                </div>
+                <h3 class="mt-4">Skills</h3>
+                <ul>
+                    <li><strong>Programming Languages:</strong> Python, JavaScript, Java, C++, PHP</li>
+                    <li><strong>Frameworks:</strong> React, Angular, Node.js, Django, Flask</li>
+                    <li><strong>Web Development:</strong> HTML, CSS, Bootstrap, Tailwind CSS</li>
+                    <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</li>
+                    <li><strong>Version Control:</strong> Git, GitHub</li>
+                    <li><strong>Customer Service Platforms:</strong> Amazon, eBay, Shopify</li>
+                    <li><strong>Internet Requirements:</strong> Minimum 15 Mbps for both upload and download</li>
+                    <li><strong>Hardware Requirements:</strong> Intel i5 processor or equivalent</li>
+                    <li><strong>Soft Skills:</strong> Communication, Team Collaboration, Customer-Centric Service</li>
+                </ul>
             </div>
-            <div class="col-md-6">
-                <button class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='contact.html'">Contact</button>
+            <!-- Content -->
+            <div class="col-md-8 content">
+                <div class="profile-header">
+                    <h1>Profile</h1>
+                    <p>As a junior developer, my mission transcends mere coding; it's about catalyzing positive change in the world through innovative technology solutions. Driven by the desire to learn new programming languages and frameworks, I aim to continuously enhance my skill set while contributing meaningfully to the community. With a collaborative spirit and a passion for leveraging technology for social good, I aspire to be part of a dynamic team where I can grow as a developer and make a tangible difference in our global community.</p>
+                </div>
+
+                <h3 class="section-title">Education</h3>
+                <ul>
+                    <li>
+                        <strong>Multimedia University</strong> | Bachelor in Mathematics and Computer Science<br>
+                        Ongata Rongai, Kenya | 08/2022 – Present
+                        <ul>
+                            <li>Cumulative GPA: 3.50/4.00</li>
+                            <li>Running Delegate</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Mudasa Academy</strong> | 01/2018 – 02/2022
+                        <ul>
+                            <li>Head of Student Council</li>
+                            <li>Cumulative GPA: 3.0/4.0</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Additional Courses</strong>
+                        <ul>
+                            <li>Certificate in Microsoft Packages (Word, Excel, PowerPoint, and Access)</li>
+                            <li>Certificate in Microsoft Packages (Word, Excel, PowerPoint, and Access)</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3 class="section-title">Achievements</h3>
+                <ul>
+                    <li>Award/Certification/Achievement 1</li>
+                    <li>Award/Certification/Achievement 2</li>
+                </ul>
             </div>
         </div>
-    </section>
-
-    <footer class="container mt-5 text-center">
-        <p>&copy; abdulrahmankitiavi@gmail.com</p>
-    </footer>
-
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
